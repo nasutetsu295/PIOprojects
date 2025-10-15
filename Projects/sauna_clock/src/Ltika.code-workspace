@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../Ltika"
+		},
+		{
+			"name": "cam_tukaitai",
+			"path": "../../cam_tukaitai"
+		},
+		{
+			"name": "sauna_clock",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
