@@ -6,13 +6,13 @@ int WhereNow = 0; // 期待する入力
 int margin = 10; // マージン指定 小さいほどプレイヤーに厳しい
 
 Servo myservo;  // サーボオブジェクトの作成
-myservo.attach(9);  // サーボの制御ピンを9番に設定
 
 
 
 void openbox() {
   // 開錠処理
   Serial.println("Box Opened!");
+  myservo.attach(9); // サーボを9番ピンに接続
   myservo.write(90); // サーボを90度に回転
 }
 
